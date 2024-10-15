@@ -1,0 +1,90 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_image"
+    android:padding="20dp">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/margheritapizza"
+        android:contentDescription="Margherita Pizza" />
+
+    <Button
+        android:id="@+id/btnAddMainCourse1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Margherita Pizza - $12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A classic pizza with fresh tomatoes, mozzarella, and basil."
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="#80000000"
+    android:padding="10dp"
+    android:textSize="16sp"
+    android:elevation="5dp" />
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/grilledchicken"
+        android:contentDescription="Grilled Chicken"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnAddMainCourse2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grilled Chicken - $15"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Juicy grilled chicken served with a side of vegetables."
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="#80000000"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:elevation="5dp" />
+
+    <!-- Veggie Burger -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/veggieburger"
+        android:contentDescription="Veggie Burger"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnAddMainCourse3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Veggie Burger - $10"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A hearty burger made with fresh veggies and spices."
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="#80000000"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:elevation="5dp" />
+
+</LinearLayout>
+

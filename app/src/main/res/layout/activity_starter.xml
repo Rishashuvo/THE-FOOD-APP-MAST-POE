@@ -1,0 +1,89 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_image"
+    android:padding="20dp">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/garlicbread"
+        android:contentDescription="Garlic Bread" />
+
+    <Button
+        android:id="@+id/btnAddStarter1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Garlic Bread - $5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crispy garlic bread with a touch of herbs."
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="#80000000"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:elevation="5dp" />
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/caesarsalad"
+        android:contentDescription="Caesar Salad"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnAddStarter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Caesar Salad - $7"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Classic Caesar Salad with crunchy croutons and parmesan."
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="#80000000"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:elevation="5dp" />
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tomatosoup"
+        android:contentDescription="Tomato Soup"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnAddStarter3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tomato Soup - $6"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Freshly made tomato soup with a basil garnish."
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="#80000000"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:elevation="5dp" />
+
+</LinearLayout>

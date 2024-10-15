@@ -1,0 +1,89 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_image"
+    android:padding="20dp">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/chocolatecake"
+        android:contentDescription="Chocolate Cake" />
+
+    <Button
+        android:id="@+id/btnAddDessert1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chocolate Cake - $5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rich and creamy chocolate cake with a luscious ganache."
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="#80000000"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:elevation="5dp" />
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icecream"
+        android:contentDescription="Ice Cream"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnAddDessert2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ice Cream - $4"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A scoop of creamy, refreshing ice cream with your choice of flavor."
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="#80000000"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:elevation="5dp" />
+
+    <!-- Fruit Salad -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/fruitsalad"
+        android:contentDescription="Fruit Salad"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnAddDessert3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fruit Salad - $6"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A healthy and refreshing mix of seasonal fruits."
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="#80000000"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:elevation="5dp" />
+
+</LinearLayout>
