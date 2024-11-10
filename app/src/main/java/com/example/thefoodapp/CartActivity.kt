@@ -3,8 +3,6 @@ package com.example.thefoodapp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
-import com.example.thefoodapp.Cart
-import com.example.thefoodapp.R
 
 class CartActivity : AppCompatActivity() {
 
@@ -14,8 +12,10 @@ class CartActivity : AppCompatActivity() {
 
         val cartItemsTextView = findViewById<TextView>(R.id.tvCartItems)
         val totalAmountTextView = findViewById<TextView>(R.id.tvTotalAmount)
+        val averageAmountTextView = findViewById<TextView>(R.id.tvAverageAmount)
 
         cartItemsTextView.text = Cart.getItems().joinToString("\n")
         totalAmountTextView.text = "Total: $" + Cart.getTotalAmount()
+        averageAmountTextView.text = "Average Price: $" + String.format("%.2f", Cart.getAveragePrice())
     }
 }

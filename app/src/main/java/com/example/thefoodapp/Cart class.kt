@@ -14,4 +14,12 @@ object Cart {
     fun getTotalAmount(): Int {
         return items.sumOf { it.second }
     }
+
+    fun getAveragePrice(): Double {
+        return if (items.isNotEmpty()) {
+            items.sumOf { it.second }.toDouble() / items.size
+        } else {
+            0.0
+        }
+    }
 }

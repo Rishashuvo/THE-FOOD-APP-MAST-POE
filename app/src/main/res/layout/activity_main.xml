@@ -7,15 +7,26 @@
     android:background="@drawable/background_image"
     android:padding="20dp">
 
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="The Food App"
         android:textSize="24sp"
-    android:textStyle="bold"
-    android:textColor="#4A148C"
-    android:layout_marginBottom="20dp" />
+        android:textStyle="bold"
+        android:textColor="#4A148C"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/averagePriceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Average Price: "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#D32F2F"
+        android:layout_marginBottom="20dp"
+        android:gravity="center" />
+
 
     <Button
         android:id="@+id/btnStarters"
@@ -39,11 +50,22 @@
 
     <Button
         android:id="@+id/btnViewCart"
-        android:layout_width="wrap_content"
+        android:layout_width="131dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="View Cart" />
 
+    <Button
+        android:id="@+id/btnMenuManagement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu Management" />
+
+    <Button
+        android:id="@+id/btnFilterActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filter Menu Items" />
 </LinearLayout>
 
 
