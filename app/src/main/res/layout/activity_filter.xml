@@ -1,0 +1,52 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:scrollbars="vertical">
+
+
+    <Button
+        android:id="@+id/btnFilterStarters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Starters"
+        android:layout_marginBottom="10dp"/>
+
+
+    <Button
+        android:id="@+id/btnFilterMainCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Course"
+        android:layout_marginBottom="10dp"/>
+
+
+    <Button
+        android:id="@+id/btnFilterDesserts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desserts"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnBackToMainFromFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Main" />
+
+
+    <TextView
+        android:id="@+id/tvFilteredItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filtered Items"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:gravity="center" />
+
+</LinearLayout>
+
